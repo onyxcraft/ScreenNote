@@ -22,7 +22,7 @@ jobs:
         run: |
           xcodebuild -project ScreenNote.xcodeproj \
             -scheme ScreenNote \
-            -destination '"platform=macOS"' \
+            -destination 'platform=macOS' \
             -skipPackagePluginValidation \
             CODE_SIGNING_ALLOWED=NO \
             build
