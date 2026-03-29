@@ -2,6 +2,7 @@ import Cocoa
 import SwiftUI
 import Carbon
 
+@MainActor
 class AppDelegate: NSObject, NSApplicationDelegate {
     var statusItem: NSStatusItem?
     var popover: NSPopover?
